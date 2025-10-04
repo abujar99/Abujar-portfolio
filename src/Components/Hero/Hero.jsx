@@ -1,13 +1,13 @@
 import React from "react";
 import "./Hero.css";
-
+import me from "../../assets/Media.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
 
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src="src/assets/Media.jpg"alt="" />
+      <img src={me}alt="" />
       <h1>
         <span>I'm Ajinkya Nehe,</span> frontend developer based in IND.
       </h1>

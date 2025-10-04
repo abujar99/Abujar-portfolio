@@ -3,7 +3,7 @@ import './About.css'
 import bg_img from '../../assets/bg_img.svg'
 import about_img from '../../assets/about_img (2).jpeg'
 
-
+import me from '../../assets/Media.jpg'
 const About = () => {
   return (
     <div id='about' className='about'>
@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className='about-sections'>
             <div className="about-left">
-                <img src='src/assets/Media.jpg'  alt="" />
+                <img src={me}  alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">

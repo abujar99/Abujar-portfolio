@@ -3,7 +3,7 @@ import './Experience.css';
 import bg_img from '../../assets/bg_img.svg';
 
 import Experience_Data from '../../assets/experience_data.js';
- 
+ import company_img from '../../assets/thebaapcom.png';
 const Experience = () => {
   return (
     <div id='experience' className='experience'>
@@ -15,7 +15,7 @@ const Experience = () => {
       <div className="experience-container">
         {Experience_Data.map((exp, index) => (
           <div key={index} className="experience-card">
-            <img src='src/assets/thebaapcom.png' alt="Company Logo" className="experience-img" />
+            <img src={company_img} alt="Company Logo" className="experience-img" />
             <div className="experience-content">
               <h2>{exp.company}</h2>
               <h3>{exp.role}</h3>
