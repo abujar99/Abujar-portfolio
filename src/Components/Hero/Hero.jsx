@@ -1,19 +1,19 @@
 import React from "react";
 import "./Hero.css";
-import profile_img from "../../assets/hero_img.jpeg";
+
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
 
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="" />
+      <img src="src/assets/Media.jpg"alt="" />
       <h1>
-        <span>I'm Sakshi Gunjal,</span> frontend developer based in IND.
+        <span>I'm Ajinkya Nehe,</span> frontend developer based in IND.
       </h1>
       <p>
-        I am a frontend developer from Maharashtra, IND with 03 month of
-        internship experience in Pravara Infotech Pvt. Ltd.
+        I am a frontend developer from Maharashtra, IND with 1 year of
+        experience in baap company.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -22,11 +22,11 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <a
-          href="https://drive.google.com/file/d/1TtSk8Hb1g95j2tSU2gfIIf9MiQrM56RE/view?usp=sharing"
-          download="Samir_Varpe_Resume.pdf"
+          href="https://drive.google.com/file/d/1YDbVcTT1hbzrgFctZhaO1ihSjDV40G1c/view?usp=drive_link"
+          download="Ajinkya_Nehe_Resume.pdf"
           className="hero-resume"
           target="_blank"
-           rel="noopener noreferrer"
+          rel="noopener noreferrer"
         >
           My Resume
         </a>
@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="hero-icon">
         <div className="hero-github">
           <a
-            href="https://github.com/sakshigunjal991"
+            href="https://github.com/ajinkya3532"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
         <div className="hero-gitlab">
           <a
-            href="#"
+            href="https://gitlab.com/ajinkyanehe3532"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const Hero = () => {
 
         <div className="hero-linkdin">
           <a
-            href="https://www.linkedin.com/in/sakshi-gunjal-4a83bb376/"
+            href="https://www.linkedin.com/in/ajinkya-nehe-a04a2627a/"
             target="_blank"
             rel="noopener noreferrer"
           >

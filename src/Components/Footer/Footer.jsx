@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import sakshi_logo from '../../assets/sakshi_logo.png'
+import Aj_logo from '../../assets/ajinkya.png'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -8,8 +8,10 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={sakshi_logo} alt="" />
-                <p>I am a frontend developer from Maharashtra, IND with 3 month of internship experience in Pravara Infotech Pvt. Ltd.</p>
+             <img src={Aj_logo} alt="Logo" className="fit-img" />
+
+
+                <p>I am a frontend developer from Maharashtra, IND with 1 year of experience in baap company.</p>
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
@@ -21,7 +23,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">© 2025 Sakshi Gunjal. All rights reserved.</p>
+            <p className="footer-bottom-left">© 2025 Ajinkya Nehe. All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>
                 <p>Privacy Policy</p>

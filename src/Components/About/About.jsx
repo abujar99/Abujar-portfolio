@@ -13,11 +13,11 @@ const About = () => {
         </div>
         <div className='about-sections'>
             <div className="about-left">
-                <img src={about_img} alt="" />
+                <img src='src/assets/Media.jpg'  alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Hi, I'm Sakshi — a frontend developer skilled in building responsive and user-friendly web applications using React.js. I enjoy turning ideas into clean and functional code.</p>
+                    <p>Hi, I'm Ajinkya — as a frontend developer skilled in building responsive and user-friendly web applications using React.js. I enjoy turning ideas into clean and functional code.</p>
                     <p>I'm passionate about creating meaningful user experiences, exploring modern frameworks, and working on side projects that address real-world challenges.</p>
 
                 </div>
@@ -31,17 +31,19 @@ const About = () => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>03+</h1>
-                <p>MONTHS OF EXPERIENCE</p>
+                <h1>01+</h1>
+                <p>YEARS OF EXPERIENCE
+
+</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>03+</h1>
+                <h1>10+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>01</h1>
+                <h1>08</h1>
                 <p>HAPPY CLIENTS</p>
             </div>
         </div>

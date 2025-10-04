@@ -4,6 +4,8 @@
     flex-direction: column;
     gap: 20px;
 }
+
+
 .footer-top {
     display: flex;
     justify-content: space-between;
