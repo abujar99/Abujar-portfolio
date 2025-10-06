@@ -17,6 +17,15 @@ const Projects = () => {
                     <img src={project.p_img} alt={project.p_name} className="projects-img" />
                     <h2>{project.p_name}</h2>
                     <p>{project.p_desc}</p>
+                      {/* Clickable project link */}
+        <a
+          href={project.p_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-link"
+        >
+          View Project
+        </a>
                     {/* <div className="projects-readmore">
                         <p>Read More</p>
                         <img src={auro_icon} alt="" />

@@ -6,13 +6,14 @@ import quick_campus from '../assets/quickcampus.png'
 import ems_img from '../assets/ems.webp'
 import tms_img from '../assets/tms_img-DZGGiv5v.webp'
 import rs_app_img from '../assets/rs_app_img-CjU-6Qk3.webp'
-import momo_img from '../assets/momo_img-DstPOK3C.webp'
+import lms_img from '../assets/lms.png'
  
 const Projects_Data = [
   {
     p_name: "ERP System Interface",
     p_desc: "Developed a responsive ERP dashboard for managing employee tasks, attendance, and departments using React.js, Tailwind CSS, and REST APIs.",
     p_img: erp_img,
+    p_link:"https://development.d3kq8oy4csoq2n.amplifyapp.com"
   },
   {
     p_name: "Student Management Portal",
@@ -34,11 +35,13 @@ const Projects_Data = [
     p_desc: "Built a React Native app to help farmers check crop prices, nearby markets, and local shops with a simple and user-friendly interface.",
     p_img: rs_app_img,
   },
-  {
-    p_name: "The Momo Bar – Food Ordering App",
-    p_desc: "Built a React Native app for browsing and ordering different types of momos, with real-time order management using Firebase backend.",
-    p_img: momo_img,
-  }
+ {
+  p_name: "LMS – React Learning Platform",
+  p_desc: "Created a responsive LMS frontend using React with features and interactive UI components.",
+  p_img: lms_img,
+  p_link: "https://ajinkya3532.github.io/my-project/"
+}
+
 ];
  
 export default Projects_Data;
