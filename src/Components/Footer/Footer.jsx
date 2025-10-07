@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Abujar_logo from '../../assets/abujar_logo.png'
+import logo from '../../assets/abujar_logo.png'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
-             <img src={Abujar_logo} alt="Logo" className="fit-img" />
+             <img src={logo} alt="Logo" className="fit-img" />
 
 
                 <p>I am a frontend developer from Maharashtra, IND with 1 year of experience in baap company.</p>
