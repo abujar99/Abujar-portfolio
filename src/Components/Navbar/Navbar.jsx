@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/abujar_logo.png"
+import logo from "../../assets/ab.png"
 import underline from "../../assets/underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_icon from "../../assets/menu_icon.svg";
