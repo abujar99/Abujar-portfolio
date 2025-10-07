@@ -11,7 +11,7 @@ const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "23e7447b-6447-4d79-bc3f-0dd5792afa52");
+    formData.append("access_key", "45eec093-21c5-4064-a62d-3314543fa1dd");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -42,10 +42,10 @@ const onSubmit = async (event) => {
                 <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /> <p>ajinkyanehe3532@gmail.com</p>
+                        <img src={mail_icon} alt="" /> <p>abujarshaikh8180@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={coll_icon} alt="" /> <p>+91 9371425505</p>
+                        <img src={coll_icon} alt="" /> <p>+91 8180982583</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>MH, India</p>

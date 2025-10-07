@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
-import Aj_logo from '../../assets/ajinkya.png'
+import Abujar_logo from '../../assets/abujar_logo.png'
 import underline from "../../assets/underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_icon from "../../assets/menu_icon.svg";
@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <AnchorLink className="anchor-link" href="#home">
-        <img src={Aj_logo} alt="aj Logo" className="nav-logo" />
+        <img src={Abujar_logo} alt="aj Logo" className="nav-logo" />
       </AnchorLink>
 
       <img src={menu_icon} onClick={openMenu} alt="" className="nav-mob-open" />

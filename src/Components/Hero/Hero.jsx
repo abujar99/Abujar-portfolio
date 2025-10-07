@@ -9,7 +9,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <img src={me}alt="" />
       <h1>
-        <span>I'm Ajinkya Nehe,</span> frontend developer based in IND.
+        <span>I'm Abujar Shaikh,</span> frontend developer based in IND.
       </h1>
       <p>
         I am a frontend developer from Maharashtra, IND with 1 year of
@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="hero-icon">
         <div className="hero-github">
           <a
-            href="https://github.com/ajinkya3532"
+            href="https://github.com/abujar99"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
         <div className="hero-gitlab">
           <a
-            href="https://gitlab.com/ajinkyanehe3532"
+            href="https://gitlab.com/abujarshaikh8180"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const Hero = () => {
 
         <div className="hero-linkdin">
           <a
-            href="https://www.linkedin.com/in/ajinkya-nehe-a04a2627a/"
+            href="https://www.linkedin.com/in/abujar-shaikh-25329b263/"
             target="_blank"
             rel="noopener noreferrer"
           >

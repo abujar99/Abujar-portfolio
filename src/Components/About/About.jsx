@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import bg_img from '../../assets/bg_img.svg'
-import about_img from '../../assets/about_img (2).jpeg'
 
 import me from '../../assets/Media.jpg'
 const About = () => {
@@ -17,7 +16,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Hi, I'm Ajinkya — as a frontend developer skilled in building responsive and user-friendly web applications using React.js. I enjoy turning ideas into clean and functional code.</p>
+                    <p>Hi, I'm Abujar — as a frontend developer skilled in building responsive and user-friendly web applications using React.js. I enjoy turning ideas into clean and functional code.</p>
                     <p>I'm passionate about creating meaningful user experiences, exploring modern frameworks, and working on side projects that address real-world challenges.</p>
 
                 </div>
