@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import me from "../../assets/Media.jpg";
+import me from "../../assets/Abujar.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
 

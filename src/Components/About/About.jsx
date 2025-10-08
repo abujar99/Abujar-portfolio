@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import bg_img from '../../assets/bg_img.svg'
 
-import me from '../../assets/Media.jpg'
+import me from '../../assets/Abujar.jpg'
 const About = () => {
   return (
     <div id='about' className='about'>
